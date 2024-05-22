@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+#new-clock {
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+}
+
+#timezones {
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}

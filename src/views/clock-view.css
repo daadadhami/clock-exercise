@@ -1,0 +1,60 @@
+.clock-container {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #0646dd;
+  border-radius: 50%;
+}
+
+.screen {
+  width: 65%;
+  height: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  background-color: #bbb;
+  border-radius: 15%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen.light {
+  background-color: #fff;
+}
+
+.screen-element {
+  margin-top: 10%;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.digit-container {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  line-height: 100%;
+  font-size: 50px;
+  justify-content: space-between;
+}
+
+.digit {
+  width: 50%;
+}
+
+.red {
+  color: crimson;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0 0 0;
+}
